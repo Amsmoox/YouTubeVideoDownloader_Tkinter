@@ -1,6 +1,8 @@
 #Ayoub Mharrech
 import tkinter as tk
-from tkinter import filedialog, messagebox
+# Import necessary tkinter modules for GUI and dialogs
+from tkinter import filedialog, messagebox 
+# Import YouTube from pytube for downloading YouTube videos
 from pytube import YouTube
 
 class YouTubeDownloader:
