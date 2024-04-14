@@ -7,9 +7,9 @@ from pytube import YouTube
 
 class YouTubeDownloader:
     def __init__(self, master):
-        self.master = master
-        self.master.title("YouTube Video Downloader")
-        self.master.geometry("500x200")
+        self.master = master  # Reference to the main window of the application
+        self.master.title("YouTube Video Downloader")  # Set the title of the window
+        self.master.geometry("500x200")  # Set the size of the window
         
         self.url_label = tk.Label(master, text="Enter YouTube URL:")
         self.url_label.pack()
@@ -45,3 +45,7 @@ def main():
     root.mainloop()
 
 main()
+
+# This is Ayoub Mharrech's work, a software engineer.
+# If you have any questions, feel free to contact me at email: mharrech.ayoub@gmail.com
+# This script is designed for beginners.
